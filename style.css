@@ -1,0 +1,34 @@
+h1 {
+	margin: 0;
+}
+.main {
+   width: auto;
+   overflow: hidden;
+}
+
+/* Section 1*/
+.nav {
+	height: 150px;
+	background: red;
+}
+
+/* Section 2*/
+.filter {
+	height: 200px;
+	background: green;
+}
+
+/* Section 3*/
+.result {
+	height: 500px;
+	background: blue;
+}
+
+/* Section 4*/
+.sidebar {
+	height: 700px;
+  width: 270px;
+	float: right;
+  background: yellow;
+}
+
