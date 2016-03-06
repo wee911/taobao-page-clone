@@ -1,1 +1,1 @@
-# taobao-page-clone
+# 百度前端技术学院2016春季班Happy Coding团队热身项目
