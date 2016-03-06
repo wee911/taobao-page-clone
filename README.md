@@ -1,1 +1,1 @@
-# 百度前端技术学院2016春季班Happy Coding团队热身项目
+# 百度IFE 2016春季班 Happy Coding团队热身项目
