@@ -1,33 +1,85 @@
-h1 {
-  margin: 0;
+body {
+    padding: 0;
+    margin: 0;
 }
+/*清浮动*/
+.clearfix:after {
+    content: ".";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden
+}
+
+.clearfix {
+    *+height: 1%;
+}
+
 .main {
-   width: auto;
+    width: 940px;
+}
+/*遮罩*/
+.mask {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+
+
+
+.red {
+    background: rgba(200, 100, 100, 0.4);
+}
+
+.yellow {
+    background: rgba(200, 200, 100, 0.4);
+}
+
+.blue {
+    background: rgba(100, 100, 200, 0.4);
+}
+
+.green {
+    background: rgba(100, 200, 100, 0.4);
+}
+
+h1 {
+    text-align: center;
+    display: inline-block;
+    margin-left: 50%;
+    color: #fee;
 }
 
 /* Section 1 */
 .nav {
-  height: 150px;
-  background: red;
+    height: 148px;
+    position: relative;
+}
+
+.content_wrapper {
+    width: 1190px;
+    margin: 0 auto;
 }
 
 /* Section 2 */
 .filter {
-  height: 200px;
-  background: green;
+    float: left;
+    width: 940px;
+    position: relative;
 }
 
 /* Section 4 */
 .result {
-  height: 500px;
-  background: blue;
+    float: left;
+    width: 940px;
+    position: relative;
 }
 
 /* Section 3 */
 .sidebar {
-  height: 700px;
-  width: 270px;
-  float: right;
-  background: yellow;
+    height: 700px;
+    width: 240px;
+    float: right;
+    position: relative;
 }
 
