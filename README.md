@@ -3,13 +3,16 @@
 ### github简易使用说明
 
 #### 首次从远程仓库克隆至本地文件夹：
-`git clone https://github.com/andy1li/taobao-page-clone.git`
+>`git clone https://github.com/andy1li/taobao-page-clone.git`
 
 #### 将远程仓库的最新改动同步至本地（要经常使用哦）：
-`git pull`
+>`git pull`
 
 #### 在自己修改本地代码后，推送至远程仓库：
-```git add .
-git commit -m "这里替换成代码描述"
-git push``` *（然后根据提示输入github用户名和密码）*
+先将改动的文件加入缓冲区：
+>`git add .`
+再实际提交改动（并描述相关改动）：
+>`git commit -m "这里替换成改动描述"`
+最后推动至远程仓库：
+>`git push` *（然后根据提示输入github用户名和密码）*
 
