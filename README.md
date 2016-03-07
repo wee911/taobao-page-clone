@@ -9,7 +9,7 @@
 `git pull`
 
 #### 在自己修改本地代码后，推送至远程仓库：
-`git add .
+```git add .
 git commit -m "这里替换成代码描述"
-git push` *（然后根据提示输入github用户名和密码）*
+git push``` *（然后根据提示输入github用户名和密码）*
 
