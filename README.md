@@ -1,6 +1,6 @@
 # 百度IFE 2016春季班 Happy Coding团队热身项目
 
-### github简易使用说明
+## github简易使用说明
 
 #### 首次从远程仓库克隆至本地文件夹：
 >`git clone https://github.com/andy1li/taobao-page-clone.git`
