@@ -27,7 +27,7 @@ sans-serif;   font-size: 12px; }
 }
 
 .arrow-right {
-  background-image: url(images/taobao-icons.png);
+  background-image: url('../images/taobao-icons.png');
   background-position: -111px -423px;
   background-size: auto;
   cursor: default !important;
@@ -39,7 +39,7 @@ sans-serif;   font-size: 12px; }
 
 .arrow-down {
   background-attachment: scroll;
-  background-image: url(images/taobao-icons.png);
+  background-image: url('../images/taobao-icons.png');
   background-clip: border-box;
   background-position: -279px -423px;
   background-size: auto;
