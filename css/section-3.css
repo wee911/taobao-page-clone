@@ -1,0 +1,59 @@
+a{
+    text-decoration: none;
+}
+.hot-sell{
+    border-bottom: 1px solid #e5e5e5;
+    font-weight: bold;
+    padding: 0.7rem 0 0.5rem 0;
+}
+.img-all{
+    border: 1px solid #e5e5e5;
+    height: 270px;
+}
+.img-all:hover{
+    border: 1px solid red;
+}
+.img-sec{
+    margin-top: 1rem;
+}
+.img-all p{
+    padding: 0;
+    margin: 0;
+}
+.cost,.sell-no{
+    height: 28px;
+    line-height: 28px;
+}
+.img-all a .cost{
+    font: 700 18px Verdana,Arial;
+    color: #f40;
+    padding-left: 0.7rem;
+}
+.sell-no{
+    font-size: 12px;
+    font-family: Arial;
+    color: #555;
+    float: right;
+    padding-right: 0.7rem;
+}
+.side-fixed li{
+    list-style: none;
+    padding: 0.2rem;
+}
+.side-fixed{
+    position: fixed;
+    right: 0;
+    bottom: 3rem;
+}
+.side-fixed .pencil{
+    display: block;
+    width: 48px;
+    height: 48px;
+    background: url(../images/pencil.png);
+}
+.side-fixed .pencil:hover{
+    display: block;
+    width: 48px;
+    height: 48px;
+    background: url(../images/pencil1.png);
+}
